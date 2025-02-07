@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="mainTitle">Welcome to DOM Manipulation!</h1>
+        
+        <div class="demo-section">
+            <h2>1. Change Text</h2>
+            <p id="changeMe">This text will change when you click the button!</p>
+            <button onclick="changeText()">Change Text</button>
+        </div>
+
+        <div class="demo-section">
+            <h2>2. Change Style</h2>
+            <p id="styleMe">This text will change color!</p>
+            <button onclick="changeStyle()">Change Color</button>
+        </div>
+
+        <div class="demo-section">
+            <h2>3. Add/Remove Elements</h2>
+            <div id="itemList">
+                <!-- Items will be added here -->
+            </div>
+            <button onclick="addItem()">Add Item</button>
+            <button onclick="removeItem()">Remove Item</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
