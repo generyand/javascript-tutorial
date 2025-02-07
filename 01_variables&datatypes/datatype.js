@@ -1,23 +1,6 @@
 // *************** DATA TYPES ***************
 
-const myString = "Hello World";
 
-const myNumber = 10;
-
-const myBoolean = true;
-
-const myArray = [1, 2, 3, 4, 5];
-
-console.log(myArray[0]);
-
-const myObject = {
-    name: "John",
-    age: 20,
-};
-
-console.log(myObject.name);
-
-console.log(typeof myString);
 
 
 

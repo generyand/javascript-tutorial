@@ -1,10 +1,5 @@
 // *************** VARIABLES ***************
 
-// const is a constant variable
-const myVar = "Hello World";
-
-// let is a variable that can be changed
-let myVar2 = "Hello World";
 
 
 

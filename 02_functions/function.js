@@ -1,16 +1,6 @@
 // *************** FUNCTIONS ***************
 
-function myFunction() {
-    console.log("Hello from myFunction");
-}
 
-myFunction();
-
-const myArrowFunction = () => {
-    console.log("Hello from myArrowFunction");
-}
-
-myArrowFunction();
 
 
 
